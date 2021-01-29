@@ -4,7 +4,7 @@
   {% assign pages = site.navigation | default: default_pages %}
 
   <a class="site__title" href="{{ "/" | relative_url }}" title="Home page">{{ site.title | escape }}</a>
-     
+    
   {% if pages %}
     <nav class="nav">
       {% for path in pages %}
